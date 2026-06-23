@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: vercel
+    upstream: DenverCoder1:vercel
+    mergeMethod: hardreset
+    mergeUnstable: true
